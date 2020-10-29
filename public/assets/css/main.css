@@ -1,0 +1,216 @@
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 15px;
+}
+
+.navbar {
+    height: 4rem;
+}
+
+.main-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1040;
+    min-height: 4rem;
+}
+
+.sidebar {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 4rem;
+    z-index: 1000;
+    height: calc(100vh - 4rem);
+    background-color: #f7f7f7;
+    border-right: 1px solid #ececec;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+.content {
+    padding: 2rem 2rem !important;
+}
+
+.login-box {
+    padding: 50px;
+    background-color: #f7f9ff;
+    width: 400px;
+    border-radius: 10px;
+    border: #ccdaff 1px solid;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ltr {
+    direction: ltr;
+    text-align: left;
+}
+
+.accordion>.card>.card-header {
+    cursor: pointer;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-bottom: 0;
+}
+
+.sidebar-list li {
+    height: 2.2rem;
+}
+
+.icon {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 20px 5px 20px 20px;
+}
+
+.icon:first-child {
+    margin-left: 0;
+}
+
+.small-icon {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    word-break: break-all;
+    overflow: hidden;
+    font-size: 6px;
+}
+
+.count {
+    text-align: center;
+}
+
+.confirm-selector {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.search-item {
+    float: left;
+    border: 1px solid silver;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 5px 10px 0;
+    background-color: whitesmoke;
+}
+
+.hidden {
+    display: none;
+}
+
+.export-button {
+    display: inline;
+    margin-right: 10px;
+}
+
+.modal-80w {
+    max-width: 80vw !important;
+}
+
+.datepicker-input {display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
+
+.datepicker-input:focus {color: #495057;background-color: #fff;border-color: #80bdff;outline: 0;box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);}
+
+.calendarContainer.jalaali div,
+.jalaali.calendarContainer .selectToday,
+.jalaali.calendarContainer .dayWrapper button,
+.calendarContainer .selected button,
+.calendarContainer .selected button:active,
+.calendarContainer .selected button:focus,
+.calendarContainer .selected button:hover {
+    text-align: inherit;
+}
+
+.MuiSlider-root {
+    margin: 0 16px;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.lds-dual-ring.dark:after {
+    content: " ";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid;
+    margin: 0 auto;
+    animation: lds-dual-ring 1.2s linear infinite;
+    border-color: #5695f9 transparent #5695f9 transparent;
+}
+
+.lds-dual-ring.light:after {
+    content: " ";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid;
+    margin: 0 auto;
+    animation: lds-dual-ring 1.2s linear infinite;
+    border-color: #fff transparent #fff transparent;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.modal-body img {
+    max-width: 100%;
+}
+
+.active-link {
+    color: orange;
+}
+
+.toggle-menu {
+    margin-right: 15px;
+    padding: 5px 10px;
+    border: 1px solid #ccdaff;
+    display: inline;
+    margin-left: 0;
+    border-radius: 5px;
+}
+
+.toggle-menu:hover {
+    background-color: #ccdaff;
+}
+
+.sidebar.close {
+    display: none;
+}
+
+.modal-90w {
+    max-width: unset !important;
+    width: 90% !important;
+}
+
+.per-page-select {
+    justify-content: flex-end;
+}
+
+.cropper-container {
+    min-height: 500px;
+}
+

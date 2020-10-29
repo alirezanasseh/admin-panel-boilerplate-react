@@ -1,0 +1,72 @@
+* {
+    direction: rtl;
+    text-align: right;
+}
+
+.form-check-inline .form-check-input {
+    margin-left: .3125rem !important;
+    margin-right: 0 !important;
+}
+
+.dropdown-toggle::after {
+    margin-left: 0 !important;
+    margin-right: .255em;
+}
+
+.spinner {
+    float: right;
+    margin-left: 10px;
+}
+
+.close {
+    left: 0;
+    position: absolute;
+}
+
+.operation-button {
+    margin-left: 5px;
+}
+
+.search-item {
+    float: right !important;
+    margin: 10px 0 10px 5px !important;
+}
+
+.export-button {
+    margin-right: 0 !important;
+    margin-left: 10px;
+}
+
+.icon {
+    margin: 20px 20px 20px 5px;
+}
+
+.icon:first-child {
+    margin-right: 0;
+}
+
+.Image-controls-3, .Image-sliderContainer-4 {
+    direction: ltr;
+}
+
+.page-item:first-child .page-link {
+    border-radius: 0 .25rem .25rem 0 !important;
+    margin-left: -1px !important;
+}
+
+.page-item:last-child .page-link {
+    border-radius: .25rem 0 0 .25rem !important;
+}
+
+.form-check-input {
+    margin-left: unset !important;
+}
+
+.form-check-label {
+    margin-right: 1.25rem;
+}
+
+.toggle-menu {
+    margin-right: -15px;
+    margin-left: 15px;
+}
