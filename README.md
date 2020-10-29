@@ -5,7 +5,7 @@ This project is an open-source admin panel that you can use for your projects ea
 - Multi-Direction (LTR / RTL)
 - Multi-Calendar support (Gregorian / Jalali)
 ## Installation
-After cloning, create a .env file from .env.sample and fill it by appropriate values, then run
+After cloning, create a `.env` file from the `.env.sample` and fill it by appropriate values, then run
 
 `npm install`
 
