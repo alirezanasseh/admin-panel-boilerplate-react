@@ -1,5 +1,10 @@
 # Admin Panel boilerplate by React Js
 This project is an open-source admin panel that you can use for your projects easily. Everything has been prepared for you, so you just define models (JSON files) for each entity and everything will be ready out of the box.
+## Demo
+Find the running demo here:
+http://demo.onmiz.net  
+Username : admin  
+Password : 123
 ## Main features
 - Multilingual
 - Multi-Direction (LTR / RTL)
